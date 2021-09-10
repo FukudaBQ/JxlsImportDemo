@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <workbook>
     <worksheet idx="0">
-
+        <loop startRow = "7" endRow = "7" items="App" var="App" varType="de.codecentric.springbootsample.Dao.App">
+            <section startRow="7" endRow="7">
+                <mapping row="7" col="0">app.id</mapping>
+            </section>
+        </loop>
     </worksheet>
 </workbook>
